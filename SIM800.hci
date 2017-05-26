@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:4AB809D1
+NODE:M LEVEL:0 LINE:2 "_SIM800_H_"
+NODE:I LEVEL:0 LINE:4 "D:\cvavr\inc\mega32a.h"
+NODE:I LEVEL:0 LINE:5 "D:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:6 "D:\cvavr\inc\stdlib.h"
+NODE:I LEVEL:0 LINE:7 "D:\cvavr\inc\string.h"
+NODE:I LEVEL:0 LINE:8 "D:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:9 "D:\cvavr\inc\delay.h"
+NODE:M LEVEL:0 LINE:11 "rec_buff_size"

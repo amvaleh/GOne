@@ -1,0 +1,36 @@
+#ifndef _SIM800_H_
+#define _SIM800_H_
+
+#include <mega32a.h>
+#include <delay.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <delay.h>
+
+#define rec_buff_size 920
+
+void prog_init(void);
+void emp_str(char *buff_2_empty,int cells_2_empty);
+int search(char *str_to_search);
+void clear_rec_buff(void);
+void at_command(char* at_cmnd);
+void sim800_init(char* pin_code);
+void sms_init(void);
+int check_reg(void);
+int send_sms(char* sms_text, char* phone_number);
+int socket_init(char* APN_name);
+int open_socket(char *server);
+int socket_send_data(char* socket_data, char* success_sign);
+int post_data(int vars_value[8]);
+void close_socket(void);
+void gprs_dis(void);
+int sim800_on(void);
+int sim800_off(void);
+int sim_800_ping(void);
+void sim800_reset(void);
+int signal_q(void);
+void get_server_time(int *s_year, int* s_mon, int* s_dat, int* s_hour, int* s_min, int* s_sec);
+
+
+#endif
